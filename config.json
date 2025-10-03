@@ -1,0 +1,9 @@
+{
+  "API_KEY": "X8ZPF14V2821I1CK",
+  "DB_CONFIG": {
+    "host": "localhost",
+    "user": "root",
+    "password": "cutiepie",
+    "database": "market_prediction"
+  }
+}
