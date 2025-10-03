@@ -24,14 +24,14 @@ A Python-based stock market prediction system that integrates Alpha Vantage API 
 - Streamlit (optional)
 
 ## 📂 Project Structure
-
+```
 ├── config.json # API key + MySQL credentials (ignored in .gitignore)
 ├── schema.sql # Database schema for predictions & alerts
 ├── fetch_data.py # Main script for fetching & forecasting
 ├── app.py # (Optional) FastAPI app for serving forecasts
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
-
+```
 
 ---
 
