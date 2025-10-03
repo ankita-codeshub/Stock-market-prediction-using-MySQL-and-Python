@@ -50,7 +50,7 @@ A Python-based stock market prediction system that integrates Alpha Vantage API 
 
 
 3. **Setup Database**
-4. 
+ 
 ```mysql -u root -p < schema.sql```
 
 5. **Configure API Key & Database**
@@ -148,12 +148,19 @@ http://127.0.0.1:8000/forecast/TCS.BSE
 All dependencies are listed in requirements.txt:
 
 ```requests```
+
 ```mysql-connector-python```
+
 ```pandas```
+
 ```numpy```
+
 ```matplotlib```
+
 ```Api```
+
 ```streamlit```
+
 ```plotly```
 
 
