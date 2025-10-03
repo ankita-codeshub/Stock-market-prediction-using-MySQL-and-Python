@@ -42,8 +42,11 @@ A Python-based stock market prediction system that integrates Alpha Vantage API 
 git clone https://github.com/<username>/stock-market-prediction.git
 cd stock-market-prediction
 
-2. Install Dependencies
+2️⃣ Install Dependencies (Main Step)
+
+🚀 Important: This is the main step. Make sure it runs successfully.
 pip install -r requirements.txt
+
 
 3. Setup Database
 mysql -u root -p < schema.sql
