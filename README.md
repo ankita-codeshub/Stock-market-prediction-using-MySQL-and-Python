@@ -1,7 +1,7 @@
 📈 Stock Market Prediction
 A Python-based stock market prediction system that integrates Alpha Vantage API with a MySQL backend. It automates stock data ingestion, generates 7-day predictive insights, and provides risk alerts with trend visualizations. The system currently tracks 4 BSE stocks (TCS, SBIN, INFY, RELIANCE) but can be easily extended to more.
 
-Table of Contents:
+##Table of Contents:
 
 1.🛠️ Technologies Used
 2.📂 Project Structure
@@ -23,7 +23,7 @@ Table of Contents:
 6.FastAPI (optional, for serving forecasts as API)
 7.Streamlit (optional, for interactive dashboards)
 
-📂 Project Structure
+##📂 Project Structure
 ├── config.json        # API key + MySQL credentials (ignored in .gitignore)
 ├── schema.sql         # Database schema for predictions & alerts
 ├── fetch_data.py      # Main script for fetching & forecasting
