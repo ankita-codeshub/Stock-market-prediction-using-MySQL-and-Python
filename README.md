@@ -147,7 +147,7 @@ http://127.0.0.1:8000/forecast/TCS.BSE
 **📦 Requirements:**
 All dependencies are listed in requirements.txt:
 
-```requests```
+-requests
 
 ```mysql-connector-python```
 
