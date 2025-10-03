@@ -1,39 +1,45 @@
 📈 Stock Market Prediction
 A Python-based stock market prediction system that integrates Alpha Vantage API with a MySQL backend. It automates stock data ingestion, generates 7-day predictive insights, and provides risk alerts with trend visualizations. The system currently tracks 4 BSE stocks (TCS, SBIN, INFY, RELIANCE) but can be easily extended to more.
 
-##Table of Contents:
+## Table of Contents
 
-1.🛠️ Technologies Used
-2.📂 Project Structure
-3.⚙️ Installation
-4.▶️ Usage
-5.📊 Example
-6.➕ Adding More Stocks
-7.🌐 API Option
-8.📦 Requirements
-9.📜 License
+1. [🛠️ Technologies Used](#technologies-used)
+2. [📂 Project Structure](#project-structure)
+3. [⚙️ Installation](#installation)
+4. [▶️ Usage](#usage)
+5. [📊 Example](#example-output)
+6. [➕ Adding More Stocks](#adding-more-stocks)
+7. [🌐 API Option](#api-option)
+8. [📦 Requirements](#requirements)
+9. [📜 License](#license)
 
-🛠️ Technologies Used:
+## 🛠️ Technologies Used
 
-1.Python 3.9+
-2.MySQL
-3.Alpha Vantage API
-4.Pandas & NumPy
-5.Matplotlib
-6.FastAPI (optional, for serving forecasts as API)
-7.Streamlit (optional, for interactive dashboards)
+- Python 3.9+
+- MySQL
+- Alpha Vantage API
+- Pandas & NumPy
+- Matplotlib
+- FastAPI (optional)
+- Streamlit (optional)
 
-##📂 Project Structure
-├── config.json        # API key + MySQL credentials (ignored in .gitignore)
-├── schema.sql         # Database schema for predictions & alerts
-├── fetch_data.py      # Main script for fetching & forecasting
-├── app.py             # (Optional) FastAPI app for serving forecasts
-├── requirements.txt   # Python dependencies
-└── README.md          # Project documentation
+## 📂 Project Structure
 
-⚙️ Installation
-1. Clone Repository
-git clone https://github.com/<your-username>/stock-market-prediction.git
+├── config.json # API key + MySQL credentials (ignored in .gitignore)
+├── schema.sql # Database schema for predictions & alerts
+├── fetch_data.py # Main script for fetching & forecasting
+├── app.py # (Optional) FastAPI app for serving forecasts
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
+
+
+---
+
+## ⚙️ Installation
+
+1. **Clone Repository**  
+
+git clone https://github.com/<username>/stock-market-prediction.git
 cd stock-market-prediction
 
 2. Install Dependencies
